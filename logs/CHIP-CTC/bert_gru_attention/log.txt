@@ -1,0 +1,37 @@
+[Sat Dec 17 08:58:03 2022|run.py|INFO] <models.bert_gru_attention.Config object at 0x000001C16F0B1A60>
+[Sat Dec 17 08:58:04 2022|modeling.py|INFO] loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz from cache at C:\Users\Lenovo\.pytorch_pretrained_bert\42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f
+[Sat Dec 17 08:58:04 2022|modeling.py|INFO] extracting archive file C:\Users\Lenovo\.pytorch_pretrained_bert\42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f to temp dir C:\Users\Lenovo\AppData\Local\Temp\tmpf5rb_r35
+[Sat Dec 17 08:58:07 2022|modeling.py|INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+[Sat Dec 17 08:58:09 2022|train_eval.py|INFO] Epoch [1/5]
+[Sat Dec 17 09:26:28 2022|train_eval.py|INFO] Iter:      0,  Val P: 0.001804,  Val R: 2.1148%,  Val F1: 0.001401,  Val Acc: 0.2473%,  Time: 0:28:19 *
+[Sat Dec 17 11:37:54 2022|train_eval.py|INFO] Iter:    300,  Val P: 0.5171,  Val R: 43.4461%,  Val F1: 0.4287,  Val Acc: 74.3296%,  Time: 2:39:46 *
+[Sat Dec 17 13:49:55 2022|train_eval.py|INFO] Iter:    600,  Val P: 0.6686,  Val R: 61.0293%,  Val F1: 0.6099,  Val Acc: 79.3804%,  Time: 4:51:46 *
+[Sat Dec 17 16:03:28 2022|train_eval.py|INFO] Iter:    900,  Val P: 0.7326,  Val R: 62.9032%,  Val F1: 0.6366,  Val Acc: 82.4265%,  Time: 7:05:19 *
+[Sat Dec 17 16:21:21 2022|train_eval.py|INFO] Epoch [2/5]
+[Sat Dec 17 18:06:13 2022|train_eval.py|INFO] Iter:   1200,  Val P: 0.7869,  Val R: 69.6059%,  Val F1: 0.7199,  Val Acc: 82.7128%,  Time: 9:08:04 *
+[Sat Dec 17 20:18:52 2022|train_eval.py|INFO] Iter:   1500,  Val P: 0.8504,  Val R: 74.7238%,  Val F1: 0.7782,  Val Acc: 83.3637%,  Time: 11:20:43
+[Sat Dec 17 22:31:14 2022|train_eval.py|INFO] Iter:   1800,  Val P: 0.8551,  Val R: 74.7782%,  Val F1: 0.7831,  Val Acc: 83.9365%,  Time: 13:33:05 *
+[Sat Dec 17 23:10:24 2022|train_eval.py|INFO] Epoch [3/5]
+[Sun Dec 18 00:45:42 2022|train_eval.py|INFO] Iter:   2100,  Val P: 0.8406,  Val R: 77.1653%,  Val F1: 0.7925,  Val Acc: 84.0536%,  Time: 15:47:33
+[Sun Dec 18 03:01:17 2022|train_eval.py|INFO] Iter:   2400,  Val P: 0.8325,  Val R: 79.2765%,  Val F1: 0.8018,  Val Acc: 84.6264%,  Time: 18:03:08
+[Sun Dec 18 05:16:48 2022|train_eval.py|INFO] Iter:   2700,  Val P: 0.8405,  Val R: 77.0688%,  Val F1: 0.7962,  Val Acc: 84.4702%,  Time: 20:18:39
+[Sun Dec 18 05:52:04 2022|train_eval.py|INFO] No optimization for a long time, auto-stopping...

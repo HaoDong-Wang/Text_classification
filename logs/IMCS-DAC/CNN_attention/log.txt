@@ -1,0 +1,44 @@
+[Tue Jan 10 11:27:22 2023|run.py|INFO] <models.CNN_attention.Config object at 0x000001A4EE1B8F70>
+[Tue Jan 10 11:27:22 2023|run.py|INFO] Namespace(model='CNN_attention', save_path='./datasets/IMCS-DAC/data/out.npz')
+[Tue Jan 10 11:27:23 2023|modeling.py|INFO] loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz from cache at C:\Users\Lenovo\.pytorch_pretrained_bert\42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f
+[Tue Jan 10 11:27:23 2023|modeling.py|INFO] extracting archive file C:\Users\Lenovo\.pytorch_pretrained_bert\42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f to temp dir C:\Users\Lenovo\AppData\Local\Temp\tmp3unow2mu
+[Tue Jan 10 11:27:26 2023|modeling.py|INFO] Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+[Tue Jan 10 11:27:29 2023|modeling.py|INFO] Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+[Tue Jan 10 11:27:29 2023|train_eval.py|INFO] Epoch [1/3]
+[Tue Jan 10 12:00:20 2023|train_eval.py|INFO] Iter:      0,  Val P: 0.04463,  Val R: 5.8869%,  Val F1: 0.01426,  Val Acc: 5.6139%,  Time: 0:32:52 *
+[Tue Jan 10 13:12:44 2023|train_eval.py|INFO] Iter:    300,  Val P: 0.108,  Val R: 16.1311%,  Val F1: 0.1271,  Val Acc: 50.9759%,  Time: 1:45:16 *
+[Tue Jan 10 14:23:48 2023|train_eval.py|INFO] Iter:    600,  Val P: 0.3215,  Val R: 40.1747%,  Val F1: 0.3537,  Val Acc: 67.7090%,  Time: 2:56:19 *
+[Tue Jan 10 15:32:15 2023|train_eval.py|INFO] Iter:    900,  Val P: 0.5455,  Val R: 48.8278%,  Val F1: 0.4638,  Val Acc: 72.4013%,  Time: 4:04:46 *
+[Tue Jan 10 16:39:39 2023|train_eval.py|INFO] Iter:   1200,  Val P: 0.5221,  Val R: 53.8533%,  Val F1: 0.5193,  Val Acc: 73.9990%,  Time: 5:12:10 *
+[Tue Jan 10 17:49:12 2023|train_eval.py|INFO] Iter:   1500,  Val P: 0.5166,  Val R: 52.9144%,  Val F1: 0.4976,  Val Acc: 68.0188%,  Time: 6:21:44 
+[Tue Jan 10 18:58:33 2023|train_eval.py|INFO] Iter:   1800,  Val P: 0.666,  Val R: 56.6578%,  Val F1: 0.5497,  Val Acc: 76.1922%,  Time: 7:31:05 *
+[Tue Jan 10 20:15:29 2023|train_eval.py|INFO] Iter:   2100,  Val P: 0.6467,  Val R: 57.9678%,  Val F1: 0.585,  Val Acc: 77.0735%,  Time: 8:48:01 *
+[Tue Jan 10 21:35:18 2023|train_eval.py|INFO] Iter:   2400,  Val P: 0.7328,  Val R: 66.8090%,  Val F1: 0.6732,  Val Acc: 78.4217%,  Time: 10:07:50 *
+[Tue Jan 10 22:52:08 2023|train_eval.py|INFO] Iter:   2700,  Val P: 0.7422,  Val R: 68.6421%,  Val F1: 0.6942,  Val Acc: 79.0937%,  Time: 11:24:39 *
+[Tue Jan 10 23:09:47 2023|train_eval.py|INFO] Epoch [2/3]
+[Wed Jan 11 00:03:02 2023|train_eval.py|INFO] Iter:   3000,  Val P: 0.7251,  Val R: 72.8668%,  Val F1: 0.7235,  Val Acc: 79.4358%,  Time: 12:35:33 *
+[Wed Jan 11 01:12:23 2023|train_eval.py|INFO] Iter:   3300,  Val P: 0.7159,  Val R: 74.0608%,  Val F1: 0.7232,  Val Acc: 79.5082%,  Time: 13:44:55 
+[Wed Jan 11 02:20:25 2023|train_eval.py|INFO] Iter:   3600,  Val P: 0.7479,  Val R: 70.6118%,  Val F1: 0.7195,  Val Acc: 79.9871%,  Time: 14:52:56 *
+[Wed Jan 11 03:28:32 2023|train_eval.py|INFO] Iter:   3900,  Val P: 0.7222,  Val R: 74.1397%,  Val F1: 0.7286,  Val Acc: 79.5968%,  Time: 16:01:03 
+[Wed Jan 11 04:37:29 2023|train_eval.py|INFO] Iter:   4200,  Val P: 0.7199,  Val R: 74.5675%,  Val F1: 0.7291,  Val Acc: 79.9107%,  Time: 17:10:00 
+[Wed Jan 11 05:46:15 2023|train_eval.py|INFO] Iter:   4500,  Val P:  0.75,  Val R: 71.1198%,  Val F1: 0.7236,  Val Acc: 79.8785%,  Time: 18:18:46 
+[Wed Jan 11 05:58:27 2023|train_eval.py|INFO] No optimization for a long time, auto-stopping...

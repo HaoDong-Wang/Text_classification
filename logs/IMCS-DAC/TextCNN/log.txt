@@ -1,0 +1,248 @@
+[Tue Jan 03 13:02:36 2023|run.py|INFO] <models.TextCNN.Config object at 0x000001EC1A518F70>
+[Tue Jan 03 13:02:36 2023|run.py|INFO] Namespace(model='TextCNN', save_path='./datasets/IMCS-DAC/data/out.npz')
+[Tue Jan 03 13:02:37 2023|train_eval_TextCNN.py|INFO] Epoch [1/20]
+[Tue Jan 03 13:02:46 2023|train_eval_TextCNN.py|INFO] Iter:      0,  Val P: 0.02909,  Val R: 12.4004%,  Val F1: 0.04659,  Val Acc: 22.7414%,  Time: 0:00:09 *
+[Tue Jan 03 13:02:46 2023|train_eval_TextCNN.py|INFO] loss/train2.74816131591796880
+[Tue Jan 03 13:02:46 2023|train_eval_TextCNN.py|INFO] loss/devtensor(2.5904)0
+[Tue Jan 03 13:02:46 2023|train_eval_TextCNN.py|INFO] acc/train0.0384615384615384640
+[Tue Jan 03 13:02:46 2023|train_eval_TextCNN.py|INFO] acc/dev0.227413578011187580
+[Tue Jan 03 13:03:00 2023|train_eval_TextCNN.py|INFO] Iter:    100,  Val P: 0.5699,  Val R: 29.6830%,  Val F1: 0.2865,  Val Acc: 57.1250%,  Time: 0:00:23 *
+[Tue Jan 03 13:03:00 2023|train_eval_TextCNN.py|INFO] loss/train1.5185166597366333100
+[Tue Jan 03 13:03:00 2023|train_eval_TextCNN.py|INFO] loss/devtensor(1.2428)100
+[Tue Jan 03 13:03:00 2023|train_eval_TextCNN.py|INFO] acc/train0.5100
+[Tue Jan 03 13:03:00 2023|train_eval_TextCNN.py|INFO] acc/dev0.5712503521268462100
+[Tue Jan 03 13:03:15 2023|train_eval_TextCNN.py|INFO] Iter:    200,  Val P: 0.6204,  Val R: 44.0285%,  Val F1: 0.4404,  Val Acc: 64.0146%,  Time: 0:00:38 *
+[Tue Jan 03 13:03:15 2023|train_eval_TextCNN.py|INFO] loss/train1.3764914274215698200
+[Tue Jan 03 13:03:15 2023|train_eval_TextCNN.py|INFO] loss/devtensor(1.1010)200
+[Tue Jan 03 13:03:15 2023|train_eval_TextCNN.py|INFO] acc/train0.46153846153846156200
+[Tue Jan 03 13:03:15 2023|train_eval_TextCNN.py|INFO] acc/dev0.6401464847679987200
+[Tue Jan 03 13:03:30 2023|train_eval_TextCNN.py|INFO] Iter:    300,  Val P: 0.6865,  Val R: 42.7076%,  Val F1: 0.4919,  Val Acc: 65.2904%,  Time: 0:00:53 *
+[Tue Jan 03 13:03:30 2023|train_eval_TextCNN.py|INFO] loss/train0.9986296892166138300
+[Tue Jan 03 13:03:30 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.9908)300
+[Tue Jan 03 13:03:30 2023|train_eval_TextCNN.py|INFO] acc/train0.7692307692307693300
+[Tue Jan 03 13:03:30 2023|train_eval_TextCNN.py|INFO] acc/dev0.6529035373656887300
+[Tue Jan 03 13:03:45 2023|train_eval_TextCNN.py|INFO] Iter:    400,  Val P: 0.7053,  Val R: 52.6383%,  Val F1: 0.5375,  Val Acc: 69.8700%,  Time: 0:01:08 *
+[Tue Jan 03 13:03:45 2023|train_eval_TextCNN.py|INFO] loss/train0.6189571022987366400
+[Tue Jan 03 13:03:45 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.9281)400
+[Tue Jan 03 13:03:45 2023|train_eval_TextCNN.py|INFO] acc/train0.8461538461538461400
+[Tue Jan 03 13:03:45 2023|train_eval_TextCNN.py|INFO] acc/dev0.6987001488993521400
+[Tue Jan 03 13:04:00 2023|train_eval_TextCNN.py|INFO] Iter:    500,  Val P: 0.7147,  Val R: 52.2485%,  Val F1: 0.5612,  Val Acc: 70.7433%,  Time: 0:01:23 *
+[Tue Jan 03 13:04:00 2023|train_eval_TextCNN.py|INFO] loss/train0.8173595666885376500
+[Tue Jan 03 13:04:00 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.8785)500
+[Tue Jan 03 13:04:00 2023|train_eval_TextCNN.py|INFO] acc/train0.6153846153846154500
+[Tue Jan 03 13:04:00 2023|train_eval_TextCNN.py|INFO] acc/dev0.7074328946838907500
+[Tue Jan 03 13:04:15 2023|train_eval_TextCNN.py|INFO] Iter:    600,  Val P: 0.6767,  Val R: 60.1177%,  Val F1: 0.6112,  Val Acc: 72.7635%,  Time: 0:01:38 *
+[Tue Jan 03 13:04:15 2023|train_eval_TextCNN.py|INFO] loss/train0.9882292151451111600
+[Tue Jan 03 13:04:15 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.8359)600
+[Tue Jan 03 13:04:15 2023|train_eval_TextCNN.py|INFO] acc/train0.6923076923076923600
+[Tue Jan 03 13:04:15 2023|train_eval_TextCNN.py|INFO] acc/dev0.7276349148859109600
+[Tue Jan 03 13:04:30 2023|train_eval_TextCNN.py|INFO] Iter:    700,  Val P: 0.7014,  Val R: 57.4301%,  Val F1: 0.6152,  Val Acc: 71.4274%,  Time: 0:01:53 
+[Tue Jan 03 13:04:30 2023|train_eval_TextCNN.py|INFO] loss/train0.8491181135177612700
+[Tue Jan 03 13:04:30 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.8496)700
+[Tue Jan 03 13:04:30 2023|train_eval_TextCNN.py|INFO] acc/train0.7307692307692307700
+[Tue Jan 03 13:04:30 2023|train_eval_TextCNN.py|INFO] acc/dev0.7142742162662481700
+[Tue Jan 03 13:04:45 2023|train_eval_TextCNN.py|INFO] Iter:    800,  Val P: 0.6718,  Val R: 63.2197%,  Val F1: 0.6431,  Val Acc: 73.8943%,  Time: 0:02:07 *
+[Tue Jan 03 13:04:45 2023|train_eval_TextCNN.py|INFO] loss/train0.4118908643722534800
+[Tue Jan 03 13:04:45 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7984)800
+[Tue Jan 03 13:04:45 2023|train_eval_TextCNN.py|INFO] acc/train0.8846153846153846800
+[Tue Jan 03 13:04:45 2023|train_eval_TextCNN.py|INFO] acc/dev0.7389432170308664800
+[Tue Jan 03 13:05:00 2023|train_eval_TextCNN.py|INFO] Iter:    900,  Val P: 0.7198,  Val R: 55.9017%,  Val F1: 0.5873,  Val Acc: 72.4778%,  Time: 0:02:22 
+[Tue Jan 03 13:05:00 2023|train_eval_TextCNN.py|INFO] loss/train1.1397900581359863900
+[Tue Jan 03 13:05:00 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.8435)900
+[Tue Jan 03 13:05:00 2023|train_eval_TextCNN.py|INFO] acc/train0.6538461538461539900
+[Tue Jan 03 13:05:00 2023|train_eval_TextCNN.py|INFO] acc/dev0.7247776570485733900
+[Tue Jan 03 13:05:14 2023|train_eval_TextCNN.py|INFO] Iter:   1000,  Val P: 0.7271,  Val R: 58.0379%,  Val F1: 0.6288,  Val Acc: 73.8018%,  Time: 0:02:37 *
+[Tue Jan 03 13:05:14 2023|train_eval_TextCNN.py|INFO] loss/train0.55386608839035031000
+[Tue Jan 03 13:05:14 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7909)1000
+[Tue Jan 03 13:05:14 2023|train_eval_TextCNN.py|INFO] acc/train0.88461538461538461000
+[Tue Jan 03 13:05:14 2023|train_eval_TextCNN.py|INFO] acc/dev0.73801762646384161000
+[Tue Jan 03 13:05:29 2023|train_eval_TextCNN.py|INFO] Iter:   1100,  Val P: 0.6793,  Val R: 62.4472%,  Val F1: 0.6235,  Val Acc: 72.7192%,  Time: 0:02:51 
+[Tue Jan 03 13:05:29 2023|train_eval_TextCNN.py|INFO] loss/train1.59699642658233641100
+[Tue Jan 03 13:05:29 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.8288)1100
+[Tue Jan 03 13:05:29 2023|train_eval_TextCNN.py|INFO] acc/train0.57692307692307691100
+[Tue Jan 03 13:05:29 2023|train_eval_TextCNN.py|INFO] acc/dev0.72719224113646421100
+[Tue Jan 03 13:05:43 2023|train_eval_TextCNN.py|INFO] Iter:   1200,  Val P: 0.6784,  Val R: 66.5734%,  Val F1: 0.6568,  Val Acc: 74.5865%,  Time: 0:03:06 *
+[Tue Jan 03 13:05:43 2023|train_eval_TextCNN.py|INFO] loss/train0.58015954494476321200
+[Tue Jan 03 13:05:43 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7761)1200
+[Tue Jan 03 13:05:43 2023|train_eval_TextCNN.py|INFO] acc/train0.84615384615384611200
+[Tue Jan 03 13:05:43 2023|train_eval_TextCNN.py|INFO] acc/dev0.74586502474948691200
+[Tue Jan 03 13:05:58 2023|train_eval_TextCNN.py|INFO] Iter:   1300,  Val P: 0.7409,  Val R: 57.3355%,  Val F1: 0.6265,  Val Acc: 73.3309%,  Time: 0:03:21 
+[Tue Jan 03 13:05:58 2023|train_eval_TextCNN.py|INFO] loss/train1.2878487110137941300
+[Tue Jan 03 13:05:58 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.8095)1300
+[Tue Jan 03 13:05:58 2023|train_eval_TextCNN.py|INFO] acc/train0.61538461538461541300
+[Tue Jan 03 13:05:58 2023|train_eval_TextCNN.py|INFO] acc/dev0.73330918749245441300
+[Tue Jan 03 13:06:13 2023|train_eval_TextCNN.py|INFO] Iter:   1400,  Val P: 0.704,  Val R: 62.0915%,  Val F1: 0.6376,  Val Acc: 74.8602%,  Time: 0:03:36 *
+[Tue Jan 03 13:06:13 2023|train_eval_TextCNN.py|INFO] loss/train0.54422956705093381400
+[Tue Jan 03 13:06:13 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7658)1400
+[Tue Jan 03 13:06:13 2023|train_eval_TextCNN.py|INFO] acc/train0.76923076923076931400
+[Tue Jan 03 13:06:13 2023|train_eval_TextCNN.py|INFO] acc/dev0.74860155338242981400
+[Tue Jan 03 13:06:29 2023|train_eval_TextCNN.py|INFO] Iter:   1500,  Val P: 0.6844,  Val R: 64.0651%,  Val F1: 0.6402,  Val Acc: 73.6488%,  Time: 0:03:51 
+[Tue Jan 03 13:06:29 2023|train_eval_TextCNN.py|INFO] loss/train1.12870097160339361500
+[Tue Jan 03 13:06:29 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7921)1500
+[Tue Jan 03 13:06:29 2023|train_eval_TextCNN.py|INFO] acc/train0.53846153846153841500
+[Tue Jan 03 13:06:29 2023|train_eval_TextCNN.py|INFO] acc/dev0.73648838987484411500
+[Tue Jan 03 13:06:44 2023|train_eval_TextCNN.py|INFO] Iter:   1600,  Val P: 0.7505,  Val R: 54.9963%,  Val F1: 0.5995,  Val Acc: 73.0291%,  Time: 0:04:07 
+[Tue Jan 03 13:06:44 2023|train_eval_TextCNN.py|INFO] loss/train0.62078118324279791600
+[Tue Jan 03 13:06:44 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.8180)1600
+[Tue Jan 03 13:06:44 2023|train_eval_TextCNN.py|INFO] acc/train0.73076923076923071600
+[Tue Jan 03 13:06:44 2023|train_eval_TextCNN.py|INFO] acc/dev0.73029095738259091600
+[Tue Jan 03 13:06:59 2023|train_eval_TextCNN.py|INFO] Iter:   1700,  Val P: 0.7155,  Val R: 62.0806%,  Val F1: 0.6522,  Val Acc: 75.5362%,  Time: 0:04:22 *
+[Tue Jan 03 13:06:59 2023|train_eval_TextCNN.py|INFO] loss/train1.08272635936737061700
+[Tue Jan 03 13:06:59 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7402)1700
+[Tue Jan 03 13:06:59 2023|train_eval_TextCNN.py|INFO] acc/train0.69230769230769231700
+[Tue Jan 03 13:06:59 2023|train_eval_TextCNN.py|INFO] acc/dev0.75536238882852421700
+[Tue Jan 03 13:07:15 2023|train_eval_TextCNN.py|INFO] Iter:   1800,  Val P: 0.7381,  Val R: 59.9244%,  Val F1: 0.6416,  Val Acc: 74.9326%,  Time: 0:04:37 
+[Tue Jan 03 13:07:15 2023|train_eval_TextCNN.py|INFO] loss/train1.08280539512634281800
+[Tue Jan 03 13:07:15 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7556)1800
+[Tue Jan 03 13:07:15 2023|train_eval_TextCNN.py|INFO] acc/train0.69230769230769231800
+[Tue Jan 03 13:07:15 2023|train_eval_TextCNN.py|INFO] acc/dev0.74932592860879711800
+[Tue Jan 03 13:07:30 2023|train_eval_TextCNN.py|INFO] Iter:   1900,  Val P: 0.7179,  Val R: 63.1577%,  Val F1: 0.6555,  Val Acc: 75.8662%,  Time: 0:04:53 
+[Tue Jan 03 13:07:30 2023|train_eval_TextCNN.py|INFO] loss/train0.4776408374309541900
+[Tue Jan 03 13:07:30 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7458)1900
+[Tue Jan 03 13:07:30 2023|train_eval_TextCNN.py|INFO] acc/train0.88461538461538461900
+[Tue Jan 03 13:07:30 2023|train_eval_TextCNN.py|INFO] acc/dev0.75866232041530851900
+[Tue Jan 03 13:07:45 2023|train_eval_TextCNN.py|INFO] Iter:   2000,  Val P: 0.7066,  Val R: 63.4067%,  Val F1: 0.6457,  Val Acc: 75.1620%,  Time: 0:05:08 
+[Tue Jan 03 13:07:45 2023|train_eval_TextCNN.py|INFO] loss/train1.08356869220733642000
+[Tue Jan 03 13:07:45 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7762)2000
+[Tue Jan 03 13:07:45 2023|train_eval_TextCNN.py|INFO] acc/train0.65384615384615392000
+[Tue Jan 03 13:07:45 2023|train_eval_TextCNN.py|INFO] acc/dev0.75161978349229342000
+[Tue Jan 03 13:08:01 2023|train_eval_TextCNN.py|INFO] Iter:   2100,  Val P: 0.7168,  Val R: 62.0824%,  Val F1: 0.6484,  Val Acc: 75.1419%,  Time: 0:05:23 
+[Tue Jan 03 13:08:01 2023|train_eval_TextCNN.py|INFO] loss/train0.85881102085113532100
+[Tue Jan 03 13:08:01 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7672)2100
+[Tue Jan 03 13:08:01 2023|train_eval_TextCNN.py|INFO] acc/train0.61538461538461542100
+[Tue Jan 03 13:08:01 2023|train_eval_TextCNN.py|INFO] acc/dev0.75141856815163592100
+[Tue Jan 03 13:08:16 2023|train_eval_TextCNN.py|INFO] Iter:   2200,  Val P: 0.7294,  Val R: 60.6668%,  Val F1: 0.6438,  Val Acc: 75.2988%,  Time: 0:05:38 
+[Tue Jan 03 13:08:16 2023|train_eval_TextCNN.py|INFO] loss/train1.3396017551422122200
+[Tue Jan 03 13:08:16 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7437)2200
+[Tue Jan 03 13:08:16 2023|train_eval_TextCNN.py|INFO] acc/train0.65384615384615392200
+[Tue Jan 03 13:08:16 2023|train_eval_TextCNN.py|INFO] acc/dev0.75298804780876492200
+[Tue Jan 03 13:08:31 2023|train_eval_TextCNN.py|INFO] Iter:   2300,  Val P: 0.6966,  Val R: 66.4984%,  Val F1: 0.6684,  Val Acc: 75.6932%,  Time: 0:05:54 
+[Tue Jan 03 13:08:31 2023|train_eval_TextCNN.py|INFO] loss/train2.43222904205322272300
+[Tue Jan 03 13:08:31 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7519)2300
+[Tue Jan 03 13:08:31 2023|train_eval_TextCNN.py|INFO] acc/train0.346153846153846152300
+[Tue Jan 03 13:08:31 2023|train_eval_TextCNN.py|INFO] acc/dev0.75693186848565332300
+[Tue Jan 03 13:08:46 2023|train_eval_TextCNN.py|INFO] Iter:   2400,  Val P: 0.7256,  Val R: 64.3982%,  Val F1: 0.662,  Val Acc: 76.0071%,  Time: 0:06:09 
+[Tue Jan 03 13:08:46 2023|train_eval_TextCNN.py|INFO] loss/train1.51093506813049322400
+[Tue Jan 03 13:08:46 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7421)2400
+[Tue Jan 03 13:08:46 2023|train_eval_TextCNN.py|INFO] acc/train0.53846153846153842400
+[Tue Jan 03 13:08:46 2023|train_eval_TextCNN.py|INFO] acc/dev0.76007082779991142400
+[Tue Jan 03 13:09:01 2023|train_eval_TextCNN.py|INFO] Iter:   2500,  Val P: 0.7094,  Val R: 64.8800%,  Val F1: 0.6638,  Val Acc: 75.7214%,  Time: 0:06:23 
+[Tue Jan 03 13:09:01 2023|train_eval_TextCNN.py|INFO] loss/train1.18785870075225832500
+[Tue Jan 03 13:09:01 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7425)2500
+[Tue Jan 03 13:09:01 2023|train_eval_TextCNN.py|INFO] acc/train0.80769230769230772500
+[Tue Jan 03 13:09:01 2023|train_eval_TextCNN.py|INFO] acc/dev0.75721356996257392500
+[Tue Jan 03 13:09:15 2023|train_eval_TextCNN.py|INFO] Iter:   2600,  Val P: 0.7269,  Val R: 62.8785%,  Val F1: 0.6647,  Val Acc: 75.8260%,  Time: 0:06:38 *
+[Tue Jan 03 13:09:15 2023|train_eval_TextCNN.py|INFO] loss/train1.2474964857101442600
+[Tue Jan 03 13:09:15 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7274)2600
+[Tue Jan 03 13:09:15 2023|train_eval_TextCNN.py|INFO] acc/train0.61538461538461542600
+[Tue Jan 03 13:09:15 2023|train_eval_TextCNN.py|INFO] acc/dev0.75825988973399332600
+[Tue Jan 03 13:09:29 2023|train_eval_TextCNN.py|INFO] Iter:   2700,  Val P: 0.7355,  Val R: 63.1795%,  Val F1: 0.6609,  Val Acc: 75.7536%,  Time: 0:06:52 
+[Tue Jan 03 13:09:29 2023|train_eval_TextCNN.py|INFO] loss/train0.76704376935958862700
+[Tue Jan 03 13:09:29 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7320)2700
+[Tue Jan 03 13:09:29 2023|train_eval_TextCNN.py|INFO] acc/train0.73076923076923072700
+[Tue Jan 03 13:09:29 2023|train_eval_TextCNN.py|INFO] acc/dev0.7575355145076262700
+[Tue Jan 03 13:09:43 2023|train_eval_TextCNN.py|INFO] Iter:   2800,  Val P: 0.7157,  Val R: 63.9689%,  Val F1: 0.6613,  Val Acc: 75.0211%,  Time: 0:07:06 
+[Tue Jan 03 13:09:43 2023|train_eval_TextCNN.py|INFO] loss/train1.12131035327911382800
+[Tue Jan 03 13:09:43 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7605)2800
+[Tue Jan 03 13:09:43 2023|train_eval_TextCNN.py|INFO] acc/train0.61538461538461542800
+[Tue Jan 03 13:09:43 2023|train_eval_TextCNN.py|INFO] acc/dev0.75021127610769052800
+[Tue Jan 03 13:09:45 2023|train_eval_TextCNN.py|INFO] Epoch [2/20]
+[Tue Jan 03 13:09:57 2023|train_eval_TextCNN.py|INFO] Iter:   2900,  Val P: 0.7138,  Val R: 64.3215%,  Val F1: 0.6634,  Val Acc: 76.3854%,  Time: 0:07:20 
+[Tue Jan 03 13:09:57 2023|train_eval_TextCNN.py|INFO] loss/train0.42609325051307682900
+[Tue Jan 03 13:09:57 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7357)2900
+[Tue Jan 03 13:09:57 2023|train_eval_TextCNN.py|INFO] acc/train0.76923076923076932900
+[Tue Jan 03 13:09:57 2023|train_eval_TextCNN.py|INFO] acc/dev0.76385367620427382900
+[Tue Jan 03 13:10:11 2023|train_eval_TextCNN.py|INFO] Iter:   3000,  Val P: 0.701,  Val R: 66.6190%,  Val F1: 0.6759,  Val Acc: 76.2043%,  Time: 0:07:34 *
+[Tue Jan 03 13:10:11 2023|train_eval_TextCNN.py|INFO] loss/train0.54515457153320313000
+[Tue Jan 03 13:10:11 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7238)3000
+[Tue Jan 03 13:10:11 2023|train_eval_TextCNN.py|INFO] acc/train0.80769230769230773000
+[Tue Jan 03 13:10:11 2023|train_eval_TextCNN.py|INFO] acc/dev0.76204273813835573000
+[Tue Jan 03 13:10:25 2023|train_eval_TextCNN.py|INFO] Iter:   3100,  Val P: 0.6977,  Val R: 68.9637%,  Val F1: 0.6867,  Val Acc: 76.6550%,  Time: 0:07:48 *
+[Tue Jan 03 13:10:25 2023|train_eval_TextCNN.py|INFO] loss/train0.21296279132366183100
+[Tue Jan 03 13:10:25 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7201)3100
+[Tue Jan 03 13:10:25 2023|train_eval_TextCNN.py|INFO] acc/train0.92307692307692313100
+[Tue Jan 03 13:10:25 2023|train_eval_TextCNN.py|INFO] acc/dev0.76654996176908533100
+[Tue Jan 03 13:10:39 2023|train_eval_TextCNN.py|INFO] Iter:   3200,  Val P: 0.7304,  Val R: 62.3756%,  Val F1: 0.6512,  Val Acc: 75.4759%,  Time: 0:08:02 
+[Tue Jan 03 13:10:39 2023|train_eval_TextCNN.py|INFO] loss/train0.62656605243682863200
+[Tue Jan 03 13:10:39 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7537)3200
+[Tue Jan 03 13:10:39 2023|train_eval_TextCNN.py|INFO] acc/train0.80769230769230773200
+[Tue Jan 03 13:10:39 2023|train_eval_TextCNN.py|INFO] acc/dev0.75475874280655153200
+[Tue Jan 03 13:10:54 2023|train_eval_TextCNN.py|INFO] Iter:   3300,  Val P: 0.6942,  Val R: 67.5091%,  Val F1: 0.6742,  Val Acc: 75.7616%,  Time: 0:08:16 
+[Tue Jan 03 13:10:54 2023|train_eval_TextCNN.py|INFO] loss/train0.9286416769027713300
+[Tue Jan 03 13:10:54 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7623)3300
+[Tue Jan 03 13:10:54 2023|train_eval_TextCNN.py|INFO] acc/train0.65384615384615393300
+[Tue Jan 03 13:10:54 2023|train_eval_TextCNN.py|INFO] acc/dev0.75761600064388913300
+[Tue Jan 03 13:11:08 2023|train_eval_TextCNN.py|INFO] Iter:   3400,  Val P: 0.7359,  Val R: 62.9345%,  Val F1: 0.6614,  Val Acc: 76.1842%,  Time: 0:08:31 
+[Tue Jan 03 13:11:08 2023|train_eval_TextCNN.py|INFO] loss/train1.4884632825851443400
+[Tue Jan 03 13:11:08 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7492)3400
+[Tue Jan 03 13:11:08 2023|train_eval_TextCNN.py|INFO] acc/train0.346153846153846153400
+[Tue Jan 03 13:11:08 2023|train_eval_TextCNN.py|INFO] acc/dev0.76184152279769813400
+[Tue Jan 03 13:11:22 2023|train_eval_TextCNN.py|INFO] Iter:   3500,  Val P: 0.7273,  Val R: 64.4752%,  Val F1: 0.6692,  Val Acc: 76.1318%,  Time: 0:08:45 
+[Tue Jan 03 13:11:22 2023|train_eval_TextCNN.py|INFO] loss/train0.494080424308776863500
+[Tue Jan 03 13:11:22 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7338)3500
+[Tue Jan 03 13:11:22 2023|train_eval_TextCNN.py|INFO] acc/train0.76923076923076933500
+[Tue Jan 03 13:11:22 2023|train_eval_TextCNN.py|INFO] acc/dev0.76131836291198843500
+[Tue Jan 03 13:11:37 2023|train_eval_TextCNN.py|INFO] Iter:   3600,  Val P: 0.7312,  Val R: 63.0502%,  Val F1: 0.6648,  Val Acc: 76.4176%,  Time: 0:09:00 
+[Tue Jan 03 13:11:37 2023|train_eval_TextCNN.py|INFO] loss/train1.2971498966217043600
+[Tue Jan 03 13:11:37 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7203)3600
+[Tue Jan 03 13:11:37 2023|train_eval_TextCNN.py|INFO] acc/train0.53846153846153843600
+[Tue Jan 03 13:11:37 2023|train_eval_TextCNN.py|INFO] acc/dev0.76417562074932593600
+[Tue Jan 03 13:11:53 2023|train_eval_TextCNN.py|INFO] Iter:   3700,  Val P: 0.7095,  Val R: 67.9595%,  Val F1: 0.6851,  Val Acc: 76.5987%,  Time: 0:09:16 *
+[Tue Jan 03 13:11:53 2023|train_eval_TextCNN.py|INFO] loss/train0.94072824716567993700
+[Tue Jan 03 13:11:53 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7171)3700
+[Tue Jan 03 13:11:53 2023|train_eval_TextCNN.py|INFO] acc/train0.73076923076923073700
+[Tue Jan 03 13:11:53 2023|train_eval_TextCNN.py|INFO] acc/dev0.7659865588152443700
+[Tue Jan 03 13:12:09 2023|train_eval_TextCNN.py|INFO] Iter:   3800,  Val P: 0.7258,  Val R: 63.9815%,  Val F1: 0.6582,  Val Acc: 76.0755%,  Time: 0:09:32 
+[Tue Jan 03 13:12:09 2023|train_eval_TextCNN.py|INFO] loss/train0.8758621811866763800
+[Tue Jan 03 13:12:09 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7410)3800
+[Tue Jan 03 13:12:09 2023|train_eval_TextCNN.py|INFO] acc/train0.69230769230769233800
+[Tue Jan 03 13:12:09 2023|train_eval_TextCNN.py|INFO] acc/dev0.76075495995814723800
+[Tue Jan 03 13:12:24 2023|train_eval_TextCNN.py|INFO] Iter:   3900,  Val P: 0.7071,  Val R: 67.1893%,  Val F1: 0.683,  Val Acc: 76.4176%,  Time: 0:09:47 
+[Tue Jan 03 13:12:24 2023|train_eval_TextCNN.py|INFO] loss/train0.58223402500152593900
+[Tue Jan 03 13:12:24 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7300)3900
+[Tue Jan 03 13:12:24 2023|train_eval_TextCNN.py|INFO] acc/train0.73076923076923073900
+[Tue Jan 03 13:12:24 2023|train_eval_TextCNN.py|INFO] acc/dev0.76417562074932593900
+[Tue Jan 03 13:12:40 2023|train_eval_TextCNN.py|INFO] Iter:   4000,  Val P: 0.7282,  Val R: 62.9832%,  Val F1: 0.666,  Val Acc: 76.1962%,  Time: 0:10:02 
+[Tue Jan 03 13:12:40 2023|train_eval_TextCNN.py|INFO] loss/train0.81334769725799564000
+[Tue Jan 03 13:12:40 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7238)4000
+[Tue Jan 03 13:12:40 2023|train_eval_TextCNN.py|INFO] acc/train0.73076923076923074000
+[Tue Jan 03 13:12:40 2023|train_eval_TextCNN.py|INFO] acc/dev0.76196225200209274000
+[Tue Jan 03 13:12:55 2023|train_eval_TextCNN.py|INFO] Iter:   4100,  Val P: 0.7459,  Val R: 62.8830%,  Val F1: 0.6663,  Val Acc: 76.6872%,  Time: 0:10:18 
+[Tue Jan 03 13:12:55 2023|train_eval_TextCNN.py|INFO] loss/train0.301275759935379034100
+[Tue Jan 03 13:12:55 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7308)4100
+[Tue Jan 03 13:12:55 2023|train_eval_TextCNN.py|INFO] acc/train0.88461538461538464100
+[Tue Jan 03 13:12:55 2023|train_eval_TextCNN.py|INFO] acc/dev0.76687190631413744100
+[Tue Jan 03 13:13:10 2023|train_eval_TextCNN.py|INFO] Iter:   4200,  Val P: 0.7029,  Val R: 66.8524%,  Val F1: 0.669,  Val Acc: 75.8904%,  Time: 0:10:33 
+[Tue Jan 03 13:13:10 2023|train_eval_TextCNN.py|INFO] loss/train0.91798222064971924200
+[Tue Jan 03 13:13:10 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7455)4200
+[Tue Jan 03 13:13:10 2023|train_eval_TextCNN.py|INFO] acc/train0.84615384615384614200
+[Tue Jan 03 13:13:10 2023|train_eval_TextCNN.py|INFO] acc/dev0.75890377882409754200
+[Tue Jan 03 13:13:25 2023|train_eval_TextCNN.py|INFO] Iter:   4300,  Val P: 0.7405,  Val R: 61.7589%,  Val F1: 0.6557,  Val Acc: 75.8381%,  Time: 0:10:48 
+[Tue Jan 03 13:13:25 2023|train_eval_TextCNN.py|INFO] loss/train0.206357002258300784300
+[Tue Jan 03 13:13:25 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7388)4300
+[Tue Jan 03 13:13:25 2023|train_eval_TextCNN.py|INFO] acc/train0.96153846153846164300
+[Tue Jan 03 13:13:25 2023|train_eval_TextCNN.py|INFO] acc/dev0.75838061893838784300
+[Tue Jan 03 13:13:40 2023|train_eval_TextCNN.py|INFO] Iter:   4400,  Val P: 0.7149,  Val R: 65.3297%,  Val F1: 0.6618,  Val Acc: 76.1560%,  Time: 0:11:03 
+[Tue Jan 03 13:13:40 2023|train_eval_TextCNN.py|INFO] loss/train0.82083481550216674400
+[Tue Jan 03 13:13:40 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7676)4400
+[Tue Jan 03 13:13:40 2023|train_eval_TextCNN.py|INFO] acc/train0.57692307692307694400
+[Tue Jan 03 13:13:40 2023|train_eval_TextCNN.py|INFO] acc/dev0.76155982132077754400
+[Tue Jan 03 13:13:56 2023|train_eval_TextCNN.py|INFO] Iter:   4500,  Val P: 0.7211,  Val R: 64.6790%,  Val F1: 0.6632,  Val Acc: 76.3652%,  Time: 0:11:18 
+[Tue Jan 03 13:13:56 2023|train_eval_TextCNN.py|INFO] loss/train0.76941931247711184500
+[Tue Jan 03 13:13:56 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7385)4500
+[Tue Jan 03 13:13:56 2023|train_eval_TextCNN.py|INFO] acc/train0.69230769230769234500
+[Tue Jan 03 13:13:56 2023|train_eval_TextCNN.py|INFO] acc/dev0.76365246086361634500
+[Tue Jan 03 13:14:10 2023|train_eval_TextCNN.py|INFO] Iter:   4600,  Val P: 0.7452,  Val R: 61.3301%,  Val F1: 0.6467,  Val Acc: 76.3572%,  Time: 0:11:33 
+[Tue Jan 03 13:14:10 2023|train_eval_TextCNN.py|INFO] loss/train0.82045274972915654600
+[Tue Jan 03 13:14:10 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7282)4600
+[Tue Jan 03 13:14:10 2023|train_eval_TextCNN.py|INFO] acc/train0.69230769230769234600
+[Tue Jan 03 13:14:10 2023|train_eval_TextCNN.py|INFO] acc/dev0.76357197472735324600
+[Tue Jan 03 13:14:25 2023|train_eval_TextCNN.py|INFO] Iter:   4700,  Val P: 0.7538,  Val R: 60.1922%,  Val F1: 0.6506,  Val Acc: 75.9548%,  Time: 0:11:47 
+[Tue Jan 03 13:14:25 2023|train_eval_TextCNN.py|INFO] loss/train0.41114953160285954700
+[Tue Jan 03 13:14:25 2023|train_eval_TextCNN.py|INFO] loss/devtensor(0.7385)4700
+[Tue Jan 03 13:14:25 2023|train_eval_TextCNN.py|INFO] acc/train0.73076923076923074700
+[Tue Jan 03 13:14:25 2023|train_eval_TextCNN.py|INFO] acc/dev0.75954766791420184700
+[Tue Jan 03 13:14:25 2023|train_eval_TextCNN.py|INFO] No optimization for a long time, auto-stopping...
+[Tue Jan 03 13:13:56 2023|train_eval_TextCNN.py|INFO] Iter:   4500,  Val P: 0.7211,  Val R: 64.6790%,  Val F1: 0.6632,  Val Acc: 76.3652%,  Time: 0:11:18
+[Tue Jan 03 13:14:10 2023|train_eval_TextCNN.py|INFO] Iter:   4600,  Val P: 0.7452,  Val R: 61.3301%,  Val F1: 0.6467,  Val Acc: 76.3572%,  Time: 0:11:33
+[Tue Jan 03 13:14:25 2023|train_eval_TextCNN.py|INFO] Iter:   4700,  Val P: 0.7538,  Val R: 60.1922%,  Val F1: 0.6506,  Val Acc: 75.9548%,  Time: 0:11:47
